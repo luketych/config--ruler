@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "consult7": {
+      "args": [
+        "consult7",
+        "google",
+        "AIzaSyBfYYFzazIb2qlBYO2pboUttwmhDqj1-6s"
+      ],
+      "command": "uvx",
+      "env": {
+        "model": "gemini-2.5-pro"
+      },
+      "type": "stdio"
+    },
+    "context7": {
+      "type": "http",
+      "url": "https://mcp.context7.com/mcp"
+    }
+  }
+}
