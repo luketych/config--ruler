@@ -9,7 +9,7 @@ Backlog.md is a CLI tool that manages tasks as markdown files in a bl/ folder wi
 
 
 ## When creating new tasks
-Ultrathink to correctly identify dependencies between tasks and use sub tasks when necessary. 
+Ultrathink to correctly identify dependencies between tasks and use sub-tasks when necessary. 
 
 ## Task title
 Titles should be concise, yet comprehensive enough so that the technical lead & CTO will immediately understand what the purpose and intent of the task is.
@@ -57,7 +57,8 @@ A Task Description needs to answer the following:
 
 ## Task Headers
 Every task contains the following headers throughout its .md file:
-    * Sub-Tasks (optional, recommended)
+    * Technical Stakeholders (required)
+    * Sub-Tasks (required)
     * Measurable Targets (required)
     * Implementation Checklist (required)
     * Definition of Done, Good-Enough (required)
@@ -69,6 +70,27 @@ Every task contains the following headers throughout its .md file:
         - Market Coverage (Aspirational - Not Directly Testable) 
     * Verification Checklist (required)
     * How To Re-Verify Success (required)
+
+
+## Technical Stakeholders
+Define who will be watching the state and progress of this task? Who will be impacted?
+
+
+## Sub-Tasks
+Every tasks needs to be broken down into sub-tasks.
+If you use an internal Task Management System or TODOs then still use them.
+After sub-tasks have been created and added to the tasks md file then inject "Moments of Reflection" in between subtasks where appropriate.
+
+### Sub-Task Moments of Reflection
+While implementing a task it's superintelligent to interlace moments of reflection in between subtasks. This forces us to pause, recallibrate, and ensure we are on track.
+When performing a "Moment of Reflection" ultrathink about which of the following will help the task stay on-track:
+    * How far along are we on the current task?
+    * What's the current state of the task, of the milestone, of the project?
+    * How does what we've done so far in the current task get us somewhere between good-enough & done on the current task?
+    * How does what we've done so far in the current task get us somewhere between good-enough & done on the current milestone?
+    * How does what we've done so far in the current task get us somewhere between good-enough & done on the current sprint, if there is one?
+    * What still needs to be done on the current task? Is there anything we have done so far that might interfere with future subtasks? Add unnecessary code debts or compounding complexities? Is everything we have done so far in the current task going to be testable and/or measurable?
+    * If technical stakeholders have been defined then what will they think about the current state of this task? What will they think about the implications of what has been worked on so far?
 
 
 ## Measurable Targets
